@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@600&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Yusei+Magic&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 45px;
+    color: rgb(5, 95, 65);
+    text-shadow: 1px 1px 1px #1fb663;
+}
+
+.mainBlock {
+    width: 800px;
+    background: #94e6ba;
+    margin-bottom: 2em;
+    opacity: 0.9;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+}
+
+.mainBlock div {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.textIn {
+    height: 2em;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+input,
+button {
+    outline: none;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 1em;
+}
+
+.btn {
+    width: 24px;
+    cursor: pointer;
+}
+
+.taskItem {
+    display: grid;
+    grid-template-columns: 9fr 1fr 1fr;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.taskItem-done {
+    display: grid;
+    grid-template-columns: 9fr 1fr 1fr;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+}
